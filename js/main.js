@@ -1,3 +1,5 @@
+// / <reference path="../typings/globals/jquery/index.d.ts" />
+
 let searchByName = document.getElementById('searchByName');
 let searchByFirstCar = document.getElementById('searchByFirstChar');
 

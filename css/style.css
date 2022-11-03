@@ -177,7 +177,8 @@ font-size: 17px;
 text-align: center;
 }
 #rowData{
-  padding: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .component{
   color: #155724;
@@ -200,4 +201,7 @@ text-align: center;
 }
 .alertName , .alertEmail,.alertPhone,.alertAge, .alertPassword,.alertRePassword{
   display: none;
+}
+p,h2,h3,h4{
+  font-weight: lighter;
 }
