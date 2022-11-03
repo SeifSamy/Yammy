@@ -4,6 +4,7 @@ let searchByName = document.getElementById('searchByName');
 let searchByFirstCar = document.getElementById('searchByFirstChar');
 
 let x = $('nav').outerWidth();
+console.log(x);
 $('#openNav').click(() => {
     if ($('.nav').css('left') == `${-x}px`) {
         $('.nav').animate({ left: '0' }, 500)
